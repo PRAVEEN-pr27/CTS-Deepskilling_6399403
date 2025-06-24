@@ -39,13 +39,13 @@ public class Main {
 
         int searchId = 103;
 
-        System.out.println("🔍 Linear Search Result:");
+        System.out.println(" Linear Search Result:");
         Product foundLinear = linearSearch(products, searchId);
         System.out.println(foundLinear != null ? foundLinear : "Product not found");
 
         Arrays.sort(products); // Required for binary search
 
-        System.out.println("\n🔍 Binary Search Result:");
+        System.out.println("\n Binary Search Result:");
         Product foundBinary = binarySearch(products, searchId);
         System.out.println(foundBinary != null ? foundBinary : "Product not found");
     }
